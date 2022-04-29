@@ -1,0 +1,83 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #F3F5FC;
+
+}
+
+.box-section {
+    display: block;
+    margin-left: 150px;
+    margin-right: 500px;
+}
+
+.logo-alura {
+    width: 120px;
+    height: 48px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.logo-teolos {
+    width: 120px;
+    height: 48px;
+    margin-top: 20px;
+}
+
+.caixa-texto {
+    width: 680px;
+    height: 350px;
+    padding-top: 20px;
+    padding-left: 10px;
+
+    margin-top: 20px;
+    background-color: #F3F5FC;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    resize: none;
+    border: 0 none;
+}
+
+/*.caixa-texto:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} */
+
+.texto-aviso {
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    opacity: 0.4;
+
+}
+
+.texto-aviso::before {
+    content: "ⓘ ";
+}
+
+.botao-cript {
+    width: 328px;
+    height: 67px;
+    margin-right: 24px;
+    background-color: #0A3871;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #D8DFE8;
+    border-radius: 40px;
+
+}
+
+.botao-descript {
+    width: 328px;
+    height: 67px;
+    background-color: #D8DFE8;
+    font-size: 16px;
+    color: #0A3871;
+    text-decoration: none;
+    border:1px solid #0A3871;
+    border-radius: 40px;
+}
+
+
