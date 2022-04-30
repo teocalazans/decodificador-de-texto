@@ -13,14 +13,33 @@
     padding-top: 10px;
 }
 
-.text-footer {
+.text-footer-link {
     text-align: center;
     font-size: 12px;
     color: lightgray;
     margin-bottom: 3px;
+    text-decoration: none;
 }
 
-@media screen {
+.text-footer-link:hover {
+    color: red;
+}
+
+.text-footer{
+    text-align: center;
+    font-size: 12px;
+    color: lightgray;
+    margin-bottom: 3px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 780px) {
+    .footer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
     .footer {
         width: 100%;
     }
