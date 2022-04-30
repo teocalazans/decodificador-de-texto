@@ -37,11 +37,13 @@ body {
     border: 0 none;
 }
 
-/*.caixa-texto:focus, input:focus, select:focus {
+.caixa-texto:focus,
+input:focus,
+select:focus {
     box-shadow: 0 0 0 0;
     border: 0 none;
     outline: 0;
-} */
+}
 
 .texto-aviso {
     margin-left: 30px;
@@ -53,7 +55,7 @@ body {
 }
 
 .texto-aviso::before {
-    content: "ⓘ ";
+    content: "⚠ ";
 }
 
 .botao-cript {
@@ -63,6 +65,7 @@ body {
     background-color: #0A3871;
     font-size: 16px;
     color: white;
+    font-weight: 600;
     text-decoration: none;
     border: 1px solid #D8DFE8;
     border-radius: 40px;
@@ -75,9 +78,9 @@ body {
     background-color: #D8DFE8;
     font-size: 16px;
     color: #0A3871;
+    font-weight: 600;
     text-decoration: none;
-    border:1px solid #0A3871;
+    border: 1px solid #0A3871;
     border-radius: 40px;
 }
-
 

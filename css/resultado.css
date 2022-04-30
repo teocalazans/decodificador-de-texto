@@ -1,0 +1,37 @@
+.second-box-section-result {
+    background-color: white;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px 12px rgba(0, 0, 0, 0.08);
+    position: absolute;
+    top: 40px;
+    right: 60px;
+    display: none;
+}
+
+.second-box-intern-result {
+    width: 380px;
+    height: 550px;
+}
+
+#resultado:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+#resultado {
+    width: 336px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 15px;
+    padding: 10px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    resize: none;
+    border: 0 none;
+}
+
+#alinhamento-botao {
+    margin-top: 20px;
+    margin-left: 25px;
+}

@@ -9,36 +9,50 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="css/tela-principal.css">
+    <link rel="stylesheet" href="css/mensagem-n-encontrada.css">
+    <link rel="stylesheet" href="css/resultado.css">
+    <link rel="stylesheet" href="css/rodape.css">
     <title>Decodificador de Texto</title>
 </head>
-
 <body>
     <header class="header">
         <img class="logo-alura" src="img/logo-alura.svg" alt="Letra A da palavra ALURA em cor azul escuro">
     </header>
     <main>
         <div class="box-section">
-            <section class="main-section">
-                <textarea class="caixa-texto" name="texto-principal" placeholder="Digite aqui seu texto..." id=""
-                    cols="30" rows="10"></textarea>
+            <section>
+                <textarea class="caixa-texto" name="texto-principal" placeholder="Digite aqui seu texto..." cols="30"
+                    rows="10"></textarea>
                 <p class="texto-aviso">Apenas letras minúsculas e sem acento</p>
                 <input class="botao-cript" type="button" value="Criptografar">
                 <input class="botao-descript" type="button" value="Descriptografar">
             </section>
         </div>
-        <section class="main-section">
-            <img src="img/img-principal.svg"
-                alt="Imagem de fundo branco com uma pessoa sentada de joelhos usando uma camisa cinza e com cabelos azuis, ela ela segurando uma Lupa olhando um diamante, ambos estão rodeados de pontinhos azuis.">
-            <h2>Nenhuma Mensagem Encontrada</h2>
-            <p>Digite o texto que você deseja Criptografar ou Descriptografar</p>
-        </section>
-
+        <div class="second-box-section">
+            <div class="second-box-intern">
+                <section>
+                    <img class="imagem-principal" src="img/img-principal.svg"
+                        alt="Imagem de fundo branco com uma pessoa sentada de joelhos usando uma camisa cinza e com cabelos azuis, ela ela segurando uma Lupa olhando um diamante, ambos estão rodeados de pontinhos azuis.">
+                    <h2 class="titulo-inicial">Nenhuma Mensagem Encontrada</h2>
+                    <p class="informativo-inicial">Digite o texto que você deseja Criptografar ou Descriptografar</p>
+                </section>
+            </div>
+        </div>
+        <div class="second-box-section-result">
+            <div class="second-box-intern-result">
+                <section>
+                    <textarea name="caixa-resultado" id="resultado" cols="30" rows="10"></textarea>
+                    <input type="button" value="Copiar" class="botao-descript" id="alinhamento-botao">
+                </section>
+            </div>
+        </div>
     </main>
-    <footer>
-        <p>Desenvolvido por  <img class="logo-teolos" src="img/LOGO-TEOLOS.svg" alt=""></p>
+    <footer class="footer">
+        <img class="logo-teolos" src="img/LOGO-TEOLOS.svg"
+            alt="Logo da TEOLOS Desenvolvimento WEB composta por seis quadrados em cada quadrado possui uma letra até formar o nome da empresa">
+        <p class="text-footer">Desenvolvido por Teolos</p>
+        <p class="text-footer">&copy;Copyright 2022 - All Rights Reserved</p>
     </footer>
 </body>
-
 </html>
