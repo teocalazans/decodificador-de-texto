@@ -64,7 +64,7 @@
 @media screen and (max-width: 480px) {
     .second-box-section {
         position: static;
-        width: 380px;
+        width: 350px;
         margin: 20px auto;
     }
 
@@ -73,7 +73,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 150px;
         width: 100%;
     }
 
