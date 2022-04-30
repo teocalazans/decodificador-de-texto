@@ -5,7 +5,6 @@
     position: absolute;
     top: 40px;
     right: 60px;
-    display: none;
 }
 
 .second-box-intern {
@@ -35,10 +34,38 @@
     font-weight: 400;
 }
 
+@media screen and (max-width: 780px) {
+    .second-box-section {
+        position: static;
+        width: 700px;
+        height: 200px;
+        margin: 20px auto;
+    }
+
+    .second-box-intern {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 200px;
+    }
+
+    .titulo-inicial,
+    .informativo-inicial {
+        text-align: center;
+    }
+
+    .imagem-principal {
+        display: none;
+    }
+
+}
+
 @media screen and (max-width: 480px) {
     .second-box-section {
         position: static;
-        width: 450px;
+        width: 380px;
         margin: 20px auto;
     }
 
