@@ -28,7 +28,7 @@ body {
     height: 350px;
     padding-top: 20px;
     padding-left: 10px;
-
+    color: #0A3871;
     margin-top: 20px;
     background-color: #F3F5FC;
     font-family: "Ubuntu", sans-serif;
@@ -84,3 +84,36 @@ select:focus {
     border-radius: 40px;
 }
 
+@media screen and (max-width: 480px) {
+    .box-section {
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+
+    .texto-aviso {
+        margin-left: auto;
+    }
+
+    .box-section section {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .caixa-texto {
+        width: 300px;
+        color: #0A3871;
+    }
+
+    .botao-cript {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .botao-descript {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+
+}

@@ -5,7 +5,7 @@
     position: absolute;
     top: 40px;
     right: 60px;
-    display: none;
+
 }
 
 .second-box-intern-result {
@@ -34,4 +34,34 @@
 #alinhamento-botao {
     margin-top: 20px;
     margin-left: 25px;
+}
+
+@media screen and (max-width: 480px) {
+    .second-box-section-result {
+        position: static;
+        width: 450px;
+        margin: 20px auto;
+    }
+
+    .second-box-intern-result {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    #resultado {
+        text-align: center;
+    }
+
+    #alinhamento-botao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+
 }
