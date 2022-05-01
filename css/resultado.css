@@ -5,7 +5,6 @@
     position: absolute;
     top: 40px;
     right: 60px;
-
 }
 
 .second-box-intern-result {
@@ -34,6 +33,11 @@
 #alinhamento-botao {
     margin-top: 20px;
     margin-left: 25px;
+} 
+
+#alinhamento-botao:hover {
+    transform: scale(1.03);
+    transition: 0.1s;
 }
 
 @media screen and (max-width: 780px) {
